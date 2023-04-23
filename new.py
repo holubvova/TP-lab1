@@ -17,6 +17,5 @@ print_cat()
   (     )
 
 """
-print("This is cat !")
-print("HotFix!")
+print("This is KPI !")
 
