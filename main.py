@@ -4,6 +4,23 @@ import lex as LexAn
 import syntax
 
 
+def super_function():
+    # Виводимо повідомлення про те, що починаємо виконувати процедуру
+    print("Починаємо круту процедуру...")
+    
+    # Рахуємо суму чисел у списку
+    total_sum = sum(list_of_numbers)
+    
+    # Обчислюємо середнє значення чисел у списку
+    average = total_sum / len(list_of_numbers)
+    
+    # Виводимо середнє значення чисел у списку
+    print("Середнє значення чисел у списку: ", average)
+    
+    # Виводимо повідомлення про те, що закінчили виконувати процедуру
+    print("Закінчили круту процедуру!")
+
+
 def main():
    # syntax.MEM_Chack('107H','DW')
     #print(data.tablet_segment)
@@ -145,5 +162,7 @@ def main():
     #print(syntax.OFFSET)
    # print(syntax.SEGment)
     #print(data.tablet_segment)
+if __name__ == '__main__':
+    main()
+    super_function()
 
-main()
