@@ -11,5 +11,5 @@ def bubble_sort(arr):
                 # Якщо перший елемент більше другого, міняємо їх місцями
                 arr[j], arr[j+1] = arr[j+1], arr[j]
 
-print("Hello world")
+print("Hello world, i dont want conflict(")
 
