@@ -1,6 +1,7 @@
 
 from art import text2art
 
+
 def print_cat():
     cat = text2art(" /\_/\ \n( o   o )\n (  =^=  )\n  (") + ")\n"
     print(cat)
@@ -16,4 +17,6 @@ print_cat()
   (     )
 
 """
+print("This is cat !")
+
 
