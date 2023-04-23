@@ -11,5 +11,5 @@ def bubble_sort(arr):
                 # Якщо перший елемент більше другого, міняємо їх місцями
                 arr[j], arr[j+1] = arr[j+1], arr[j]
 
-print("This is cat !")
+print("This is DOG!")
 
