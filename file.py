@@ -1,5 +1,5 @@
 def calculate_rectangle_area(length, width):
-    area = length * width
+    area = length1 * width1
     return area
 
 def calculate_square_area(side):
